@@ -6,8 +6,17 @@ body {
   padding: 20px;
 }
 
+h1 {
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+.game-select {
+  margin: 20px 0;
+}
+
 button {
-  padding: 12px 20px;
+  padding: 12px 22px;
   margin: 10px;
   font-size: 16px;
   cursor: pointer;
@@ -15,8 +24,15 @@ button {
   background-color: #e0dacd;
 }
 
+button:hover {
+  background-color: #d4ccb8;
+}
+
 #game-area {
   margin-top: 30px;
   padding: 20px;
   border-top: 2px solid #333;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
